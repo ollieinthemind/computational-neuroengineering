@@ -1,2 +1,0 @@
-creating a simulink model in MATLAB that uses the Hodgkin Huxley model, subsystems for each channel are created individually. For the sodium and potassium channels, there are probability factors, n, m, and h that have governing differential equations implemented by the subsystems. The inputs to those subsystems are alpha and beta, which also have their own subsystems that use voltage as the input. From the channel probabilities, and the given parameters, the loop can be completed and the entire HH model can run appropriately. 
-
